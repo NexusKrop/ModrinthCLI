@@ -10,6 +10,7 @@ namespace Modrinth.Console
     public static class Common
     {
         public static readonly HttpClient client = new();
+        public static readonly Modrinth.RestClient.IModrinthApi api = Modrinth.RestClient.ModrinthApi.NewClient(userAgent: "NexusKrop-ModrinthCLI");
         public const string Command = "modrinth";
 
         static Common()
