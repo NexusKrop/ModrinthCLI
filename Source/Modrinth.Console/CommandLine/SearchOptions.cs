@@ -47,7 +47,7 @@ namespace Modrinth.Console.CommandLine
                 return 2;
             }
 
-            var indexFrom = opts.PageSize * opts.Page;
+            var indexFrom = opts.PageSize * (opts.Page - 1);
 
             var facet = new StringBuilder();
 
