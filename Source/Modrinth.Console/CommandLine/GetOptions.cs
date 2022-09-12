@@ -8,7 +8,7 @@ using System.Text.Json;
 
 namespace Modrinth.Console.CommandLine
 {
-    [Verb("get")]
+    [Verb("get", HelpText = "Get information about a project.")]
     public class GetOptions
     {
         [Value(0, MetaName = "slug", Required = true, HelpText = "The slug of the project")]

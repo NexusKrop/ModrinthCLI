@@ -10,7 +10,7 @@ using System.Text.Json;
 
 namespace Modrinth.Console.CommandLine
 {
-    [Verb("peek")]
+    [Verb("peek", HelpText = "Get a list of versions from a project.")]
     public class PeekOptions
     {
         [Value(0, MetaName = "project", HelpText = "The slug of the project to peek.", Required = true)]

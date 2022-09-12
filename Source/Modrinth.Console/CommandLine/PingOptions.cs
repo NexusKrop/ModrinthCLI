@@ -8,7 +8,7 @@ using CommandLine;
 
 namespace Modrinth.Console.CommandLine
 {
-    [Verb("ping")]
+    [Verb("ping", HelpText = "Pings the Modrinth API Server.")]
     public class PingOptions
     {
         public static async Task<int> Run(PingOptions options)

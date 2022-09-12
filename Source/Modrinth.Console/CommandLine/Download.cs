@@ -7,7 +7,7 @@ using CommandLine;
 
 namespace Modrinth.Console.CommandLine
 {
-    [Verb("download")]
+    [Verb("download", HelpText = "Download a file from a project's latest version.")]
     public class Download
     {
         [Value(0, MetaName = "slug", HelpText = "Project slug", Required = true)]

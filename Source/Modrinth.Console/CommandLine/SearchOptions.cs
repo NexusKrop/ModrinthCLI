@@ -10,7 +10,7 @@ using CommandLine;
 
 namespace Modrinth.Console.CommandLine
 {
-    [Verb("search")]
+    [Verb("search", HelpText = "Search and filter a project based on the options given.")]
     public class SearchOptions
     {
         public static readonly string[] AcceptedSorts = {

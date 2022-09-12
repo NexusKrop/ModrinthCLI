@@ -5,6 +5,14 @@
     <TargetFramework>net6</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>modrinth</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>NexusKrop.ModrinthCLI</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Command-line interface for interacting with Modrinth API</Description>
+    <Authors>WithLithum</Authors>
+    <Company>NexusKrop project</Company>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
